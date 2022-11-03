@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        [
+            "import",
+            {
+                "libraryName": "patsnap-biz",
+                "customName": name => `@patsnap-biz/${name}`,
+                "style": name => `${name}/lib/style`
+            }
+          ]
+    ]
+  }
